@@ -9,7 +9,7 @@ walker talker {
         std.out(here.message,here.prompts);
 
         #here we take the input from the terminal.
-        utterance =  std.input("> ");
+        utterance = std.input("> ");
 
         #if the user enters "quit" the programs ends.
         if(utterance=="quit"): disengage;
